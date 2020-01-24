@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="www.thymeleaf.org"
+	xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+	layout:decorate="LayoutPrincipal">
+
+<head>
+<meta charset="UTF-8" />
+<title>Skills</title>
+</head>
+
+
+<section layout:fragment="content">
+<!-- Page content holder -->
+<div class="page-content p-5" id="content">
+
+	<!-- Demo content -->
+	<h2 class="display-4 text-white">//skills</h2>
+	<p class="lead text-white mb-0">Essas são as minhas habilidades e
+		seus respectivos níveis.</p>
+
+
+	<div class="separator"></div>
+	
+	<div class="row">
+		<div class="col-lg">
+			<h6>Java</h6>
+			<div class="progress">
+				<div
+					class="progress-bar progress-bar-striped progress-bar-animated bg-danger"
+					style="width: 30%">30%</div>
+			</div>
+			<h6>C#</h6>
+			<div class="progress">
+				<div class="progress-bar progress-bar-striped progress-bar-animated"
+					style="width: 10%">10%</div>
+			</div>
+			<h6>HTML5 e CSS3</h6>
+			<div class="progress">
+				<div
+					class="progress-bar progress-bar-striped progress-bar-animated bg-success"
+					style="width: 30%">30%</div>
+			</div>
+			<h6>JavaScript</h6>
+			<div class="progress">
+				<div
+					class="progress-bar progress-bar-striped progress-bar-animated bg-warning"
+					style="width: 10%">10%</div>
+			</div>
+		</div>
+	</div>
+
+
+<!-- End demo content -->
+</div>
+</section>
+</html>
